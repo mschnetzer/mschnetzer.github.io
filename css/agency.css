@@ -350,7 +350,7 @@ CSS for Blog posts
     color: #fed136;
     padding: 170px;
     background-attachment: scroll;
-    background-image: url(../img/article-bg.jpg);
+    background-color: #000;
     background-position: center center;
     background-repeat: none;
 }
