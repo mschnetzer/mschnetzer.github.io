@@ -371,6 +371,23 @@ CSS for Blog posts
   margin-left: 150px;
 }
 
+.blogcontent h3 {
+  margin-top: 40px;
+}
+
+.blogcontent h4 {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.blogcontent h5 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: normal;
+  text-transform: none;
+}
+
 section {
     padding: 100px 0;
 }
