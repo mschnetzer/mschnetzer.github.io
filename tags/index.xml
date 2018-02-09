@@ -6,10 +6,19 @@
     <description>Recent content in Tags on matthias schnetzer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-DE</language>
-    <lastBuildDate>Thu, 31 Dec 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://smanull.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Arbeitslosigkeit</title>
+      <link>https://smanull.github.io/tags/arbeitslosigkeit/</link>
+      <pubDate>Mon, 22 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://smanull.github.io/tags/arbeitslosigkeit/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Arbeitszeit</title>
@@ -120,6 +129,15 @@
     </item>
     
     <item>
+      <title>Notstandshilfe</title>
+      <link>https://smanull.github.io/tags/notstandshilfe/</link>
+      <pubDate>Mon, 22 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://smanull.github.io/tags/notstandshilfe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Politik</title>
       <link>https://smanull.github.io/tags/politik/</link>
       <pubDate>Fri, 26 May 2017 00:00:00 +0000</pubDate>
@@ -161,6 +179,15 @@
       <pubDate>Fri, 08 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://smanull.github.io/tags/ungleichheit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vermögen</title>
+      <link>https://smanull.github.io/tags/verm%C3%B6gen/</link>
+      <pubDate>Mon, 22 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://smanull.github.io/tags/verm%C3%B6gen/</guid>
       <description></description>
     </item>
     
