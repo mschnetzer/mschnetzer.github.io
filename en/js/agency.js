@@ -1,7 +1,7 @@
 // Smooth scrolling via animate()
 $(document).ready(function(){
   $("a").on('click', function(event) {
-    if (this.hash && window.location.pathname == "/") {
+    if (this.hash && window.location.pathname == "/de/") {
       event.preventDefault();
       var hash = this.hash;
       $('html, body').animate({
