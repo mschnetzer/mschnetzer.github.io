@@ -315,6 +315,30 @@ header .intro-text .intro-pic {
   border-radius: 100%;
 }
 
+header .intro-text .intro-twitter {
+  position: absolute;
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 40px;
+  color: white;
+  font-size: 30px;
+}
+header .intro-text .intro-twitter:hover {
+  color:#ADD8E6;
+}
+
+header .intro-text .intro-github {
+  position: absolute;
+  display: inline-block;
+  margin-left: 70px;
+  margin-top: 40px;
+  color: white;
+  font-size: 30px;
+}
+header .intro-text .intro-github:hover {
+  color:#ADD8E6;
+}
+
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -349,6 +373,24 @@ header .intro-text .intro-heading {
       height: 130px;
       border: 2px solid #f1f1f1;
       border-radius: 100%;
+    }
+
+    header .intro-text .intro-twitter {
+      position: absolute;
+      display: inline-block;
+      margin-left: 60px;
+      margin-top: 70px;
+      color: white;
+      font-size: 48px;
+    }
+
+    header .intro-text .intro-github {
+      position: absolute;
+      display: inline-block;
+      margin-left: 110px;
+      margin-top: 70px;
+      color: white;
+      font-size: 48px;
     }
 
     header .intro-text .intro-lead-in {
