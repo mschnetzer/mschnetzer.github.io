@@ -316,10 +316,10 @@ header .intro-text .intro-pic {
 }
 
 header .intro-text .intro-twitter {
-  position: absolute;
+  position: relative;
   display: inline-block;
-  margin-left: 40px;
-  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
   color: white;
   font-size: 30px;
 }
@@ -328,14 +328,26 @@ header .intro-text .intro-twitter:hover {
 }
 
 header .intro-text .intro-github {
-  position: absolute;
+  position: relative;
   display: inline-block;
-  margin-left: 70px;
-  margin-top: 40px;
+  margin-left: 10px;
+  margin-right: auto;
   color: white;
   font-size: 30px;
 }
 header .intro-text .intro-github:hover {
+  color:#ADD8E6;
+}
+
+header .intro-text .intro-mail {
+  position: relative;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: auto;
+  color: white;
+  font-size: 30px;
+}
+header .intro-text .intro-mail:hover {
   color:#ADD8E6;
 }
 
@@ -365,6 +377,7 @@ header .intro-text .intro-heading {
     header .intro-text .intro-pic {
       position:relative;
       margin-left: auto;
+      margin-bottom: 0px;
       background-image: url(../img/profile-pic.jpg);
       background-position: center center;
       background-size: 130px 130px;
@@ -376,19 +389,29 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-twitter {
-      position: absolute;
+      position:relative;
       display: inline-block;
-      margin-left: 60px;
-      margin-top: 70px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 50px;
       color: white;
       font-size: 48px;
     }
 
     header .intro-text .intro-github {
-      position: absolute;
+      position:relative;
       display: inline-block;
-      margin-left: 110px;
-      margin-top: 70px;
+      margin-left: 15px;
+      margin-right: 15px;
+      color: white;
+      font-size: 48px;
+    }
+
+    header .intro-text .intro-mail {
+      position:relative;
+      display: inline-block;
+      margin-left: auto;
+      margin-right: auto;
       color: white;
       font-size: 48px;
     }
