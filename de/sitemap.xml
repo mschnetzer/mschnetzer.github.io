@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://mschnetzer.github.io/de/blog/technologie-und-verteilung/</loc>
+    <lastmod>2018-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mschnetzer.github.io/de/blog/umfragen-steuern/</loc>
     <lastmod>2018-02-21T00:00:00+00:00</lastmod>
   </url>
@@ -82,7 +87,7 @@
   
   <url>
     <loc>https://mschnetzer.github.io/de/blog/</loc>
-    <lastmod>2018-02-21T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -202,6 +207,12 @@
   </url>
   
   <url>
+    <loc>https://mschnetzer.github.io/de/tags/technologie/</loc>
+    <lastmod>2018-04-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://mschnetzer.github.io/de/tags/umfragen/</loc>
     <lastmod>2018-02-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -221,7 +232,7 @@
   
   <url>
     <loc>https://mschnetzer.github.io/de/tags/ungleichheit/</loc>
-    <lastmod>2018-02-21T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -251,7 +262,7 @@
   
   <url>
     <loc>https://mschnetzer.github.io/de/categories/verteilung/</loc>
-    <lastmod>2018-02-21T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -269,7 +280,7 @@
   
   <url>
     <loc>https://mschnetzer.github.io/de/</loc>
-    <lastmod>2018-02-21T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
