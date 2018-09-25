@@ -191,6 +191,13 @@ fieldset[disabled] .btn-xl.active {
     margin: -15px;
 }
 
+/* Disable "Read on" button in mobile mode */
+@media(max-width:768px) {
+ .btn-xl {
+   display: none;
+ }
+}
+
 @media(min-width:768px) {
     .navbar-brand>img {
         height: 50px;
@@ -286,8 +293,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
-    background-position: center center;
+    background-color: #f1f1f1;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -297,7 +303,7 @@ header {
 
 header .intro-text {
     padding-top: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
 }
 
 header .intro-text .intro-pic {
@@ -320,7 +326,7 @@ header .intro-text .intro-twitter {
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
-  color: white;
+  color: black;
   font-size: 30px;
 }
 header .intro-text .intro-twitter:hover {
@@ -332,7 +338,7 @@ header .intro-text .intro-github {
   display: inline-block;
   margin-left: 10px;
   margin-right: auto;
-  color: white;
+  color: black;
   font-size: 30px;
 }
 header .intro-text .intro-github:hover {
@@ -344,7 +350,7 @@ header .intro-text .intro-mail {
   display: inline-block;
   margin-left: 10px;
   margin-right: auto;
-  color: white;
+  color: black;
   font-size: 30px;
 }
 header .intro-text .intro-mail:hover {
@@ -369,6 +375,19 @@ header .intro-text .intro-heading {
 }
 
 @media(min-width:768px) {
+    header {
+        text-align: center;
+        color: #fff;
+        background-attachment: scroll;
+        background-image: url(../img/header-bg.jpg);
+        background-position: center center;
+        background-repeat: none;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+
     header .intro-text {
         padding-top: 140px;
         padding-bottom: 360px;
@@ -544,7 +563,7 @@ section {
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
-    font-size: 40px;
+    font-size: 20px;
 }
 
 section h3.section-subheading {
@@ -559,6 +578,12 @@ section h3.section-subheading {
 @media(min-width:768px) {
     section {
         padding: 120px 0;
+    }
+
+    section h2.section-heading {
+        margin-top: 0;
+        margin-bottom: 15px;
+        font-size: 40px;
     }
 }
 
