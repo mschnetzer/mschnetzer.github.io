@@ -128,6 +128,13 @@ fieldset[disabled] .btn-primary.active {
     background-color: #eec200;
 }
 
+/* Disable "Read on" button in mobile mode */
+@media(max-width:768px) {
+ .btn-xl {
+   display: none;
+ }
+}
+
 .btn-xl:hover,
 .btn-xl:focus,
 .btn-xl:active,
@@ -189,13 +196,6 @@ fieldset[disabled] .btn-xl.active {
     height: 50px;
     max-width: 250px;
     margin: -15px;
-}
-
-/* Disable "Read on" button in mobile mode */
-@media(max-width:768px) {
- .btn-xl {
-   display: none;
- }
 }
 
 @media(min-width:768px) {
