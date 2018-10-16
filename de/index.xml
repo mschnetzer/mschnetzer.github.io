@@ -5,10 +5,25 @@
     <link>https://mschnetzer.github.io/de/</link>
     <description>Recent content on matthias schnetzer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 17 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mschnetzer.github.io/de/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Supervision of master theses</title>
+      <link>https://mschnetzer.github.io/de/masterarbeiten/</link>
+      <pubDate>Tue, 16 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mschnetzer.github.io/de/masterarbeiten/</guid>
+      <description>Please submit your short application via mail with reference to the key.
+[MA1] Regional Kuznets Curves
+Calculate Kuznets relationship on Austrian municipal level, similar to a tweet by Branko Milanovic.
+[MA2] Spatial inequality in Vienna
+Spatial evaluation of small-scale social inequalities in Vienna, similar to social monitoring in Zurich.
+[MA3] R-package using the data.gv.at API
+Create an R-package to access the Austrian open data platform from within R and build Shiny app with selected results.</description>
+    </item>
     
     <item>
       <title>Führt technologischer Wandel zu Ungleichheit?</title>
