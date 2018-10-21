@@ -18,8 +18,8 @@
       <guid>https://mschnetzer.github.io/de/masterarbeiten/</guid>
       <description>Please submit your short application via mail with reference to the key.
 [MA1] Regional Kuznets Curves
-Calculate Kuznets relationship on Austrian municipal level, similar to a tweet by Branko Milanovic.
-[MA2] Spatial inequality in Vienna (already taken)
+Investigation of Kuznets relationship between economic development and income inequality across Austrian municipalities, similar to a tweet by Branko Milanovic.
+[MA2] Spatial inequality in Vienna (taken)
 Spatial evaluation of small-scale social inequalities in Vienna, similar to social monitoring in Zurich.
 [MA3] R-package using the data.gv.at API
 Create an R-package to access the Austrian open data platform from within R and build Shiny app with selected results.</description>
