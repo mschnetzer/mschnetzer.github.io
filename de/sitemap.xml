@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mschnetzer.github.io/de/masterarbeiten/</loc>
-    <lastmod>2018-10-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://mschnetzer.github.io/de/blog/technologie-und-verteilung/</loc>
     <lastmod>2018-04-17T00:00:00+00:00</lastmod>
   </url>
@@ -224,13 +219,13 @@
   </url>
   
   <url>
-    <loc>https://mschnetzer.github.io/de/tags/umwelt/</loc>
+    <loc>https://mschnetzer.github.io/de/categories/umwelt/</loc>
     <lastmod>2017-09-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mschnetzer.github.io/de/categories/umwelt/</loc>
+    <loc>https://mschnetzer.github.io/de/tags/umwelt/</loc>
     <lastmod>2017-09-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -285,7 +280,7 @@
   
   <url>
     <loc>https://mschnetzer.github.io/de/</loc>
-    <lastmod>2018-10-16T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
