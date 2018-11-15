@@ -11,8 +11,8 @@ Investigation of Kuznets relationship between economic development and income in
 **[MA2]** *Spatial inequality in Vienna* ***(taken)***  
 Spatial evaluation of small-scale social inequalities in Vienna, similar to [social monitoring in Zurich](https://www.stadt-zuerich.ch/prd/de/index/stadtentwicklung/gesellschaft-und-raum/entwicklung-wohnstadt-2/sozialraummonitoring/Sozialraummonitoring_2017.html).
 
-**[MA3]** *R-package using the data.gv.at API*  
-Create an R-package to access the [Austrian open data platform](https://data.gv.at) from within R and build Shiny app with selected results.
+**[MA3]** *National Rich List Database*  
+Collect national rich lists from Eurozone countries and create API for public use. This includes searching lists, correspondence with publishers, legal clarification, setting up a database and creating an API.  
 
 **[MA4]** *Social and cultural capital in Austria*  
  Evaluation of the [EU-SILC 2015](http://www.statistik.at/web_de/frageboegen/private_haushalte/eu_silc/index.html) Ad-hoc module on social and cultural participation by socio-demographic characteristics.
