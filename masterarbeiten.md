@@ -1,6 +1,7 @@
 +++
 title = "Supervision of master theses"
 date = "2018-10-16"
+type = "page"
 +++
 
 Please submit your short application [via mail](mailto:mschnetz@wu.ac.at) with reference to the key.
