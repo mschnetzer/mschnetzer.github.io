@@ -5,10 +5,25 @@
     <link>https://mschnetzer.github.io/de/</link>
     <description>Recent content on matthias schnetzer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 17 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mschnetzer.github.io/de/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Betreuung von Masterarbeiten</title>
+      <link>https://mschnetzer.github.io/de/mastertheses/</link>
+      <pubDate>Thu, 15 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mschnetzer.github.io/de/mastertheses/</guid>
+      <description>Please submit your short application via mail with reference to the key.
+[MA1] Regional Kuznets Curves
+Investigation of Kuznets relationship between economic development and income inequality across Austrian municipalities, similar to a tweet by Branko Milanovic.
+[MA2] Spatial inequality in Vienna (taken)
+Spatial evaluation of small-scale social inequalities in Vienna, similar to social monitoring in Zurich.
+[MA3] National Rich List Database
+Collect national rich lists from Eurozone countries and create API for public use.</description>
+    </item>
     
     <item>
       <title>Führt technologischer Wandel zu Ungleichheit?</title>

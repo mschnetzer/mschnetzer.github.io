@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://mschnetzer.github.io/en/mastertheses/</loc>
+    <lastmod>2018-11-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://mschnetzer.github.io/de/mastertheses/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mschnetzer.github.io/en/mastertheses/"
+                />
+  </url>
+  
+  <url>
     <loc>https://mschnetzer.github.io/en/categories/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -34,6 +49,7 @@
   
   <url>
     <loc>https://mschnetzer.github.io/en/</loc>
+    <lastmod>2018-11-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
