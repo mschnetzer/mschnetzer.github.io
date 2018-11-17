@@ -230,8 +230,8 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #fed136;
-    border-color: #fed136;
+    background-color: #d03161;
+    border-color: #d03161;
 }
 
 .navbar-default .nav li a {
@@ -314,10 +314,10 @@ header .intro-text .intro-pic {
   margin-bottom: 15px;
   background-image: url(../img/profile-pic.jpg);
   background-position: center center;
-  background-size: 80px 80px;
+  background-size: 100px 100px;
   background-repeat: none;
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   border: 2px solid #f1f1f1;
   border-radius: 100%;
 }
@@ -616,7 +616,7 @@ section h3.section-subheading {
     }
 
     section h2.section-heading {
-        margin-top: 0;
+        margin-top: 20px;
         margin-bottom: 10px;
         font-size: 30px;
     }
