@@ -535,8 +535,17 @@ CSS for Blog posts
 .posts-list ul {
   padding:20px;
   list-style-type:none;
-  text-align:center;
+  text-align:left;
   font-size: 14px;
+}
+
+@media(min-width:768px) {
+  .posts-list ul {
+    padding:20px;
+    list-style-type:none;
+    text-align:center;
+    font-size: 14px;
+  }
 }
 
 .blogcontent {
