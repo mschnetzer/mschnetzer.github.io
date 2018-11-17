@@ -24,7 +24,7 @@ $(document).ready(function(){
 
 // Navigation change on scroll
 $(document).ready(function(){
-  var maxOffset = 100;
+  var maxOffset = 1;
   $(window).scroll(function() {
     if ($(window).scrollTop() >= maxOffset) {
       $('.navbar-default').addClass('navbar-shrink');
@@ -36,7 +36,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  var maxOffset = 100;
+  var maxOffset = 1;
   if ($(window).scrollTop() >= maxOffset) {
     $('.navbar-default').addClass('navbar-shrink');
   }

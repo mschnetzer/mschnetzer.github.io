@@ -11,10 +11,11 @@ body {
 
 .text-muted {
     color: #777;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .text-primary {
-    color: #eec200;
+    color: #5d8198;
 }
 
 p {
@@ -34,14 +35,14 @@ a.active {
 }
 
 a {
-    color: #eec200;
+    color: #d03161;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #eec200;
+    color: #d03161;
 }
 
 h1,
@@ -68,12 +69,12 @@ h6 {
 }
 
 .btn-primary {
-    border-color: #eec200;
+    border-color: #5d8198;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #eec200;
+    background-color: #5d8198;
 }
 
 .btn-primary:hover,
@@ -81,9 +82,9 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #f6bf01;
+    border-color: #5d8198;
     color: #fff;
-    background-color: #fec503;
+    background-color: #5d8198;
 }
 
 .btn-primary:active,
@@ -182,14 +183,14 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #eec200;
+    color: #5d8198;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #fec503;
+    color: #d03161;
 }
 
 .navbar-brand>img {
@@ -219,8 +220,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #5d8198;
+    background-color: #5d8198;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -230,6 +231,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
     background-color: #fed136;
+    border-color: #fed136;
 }
 
 .navbar-default .nav li a {
@@ -237,13 +239,13 @@ fieldset[disabled] .btn-xl.active {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #5d8198;
 }
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #fed136;
+    color: #d03161;
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -260,7 +262,7 @@ fieldset[disabled] .btn-xl.active {
 
 @media(min-width:768px) {
     .navbar-default {
-        padding: 25px 0;
+        padding: 5px 0;
         border: 0;
         background-color: transparent;
         -webkit-transition: padding .3s;
@@ -269,7 +271,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-brand {
-        font-size: 2em;
+        font-size: 1.5em;
         -webkit-transition: all .6s;
         -moz-transition: all .6s;
         transition: all .6s;
@@ -280,7 +282,6 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink {
-        padding: 10px 0;
         background-color: #000;
     }
 
@@ -310,7 +311,7 @@ header .intro-text .intro-pic {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   background-image: url(../img/profile-pic.jpg);
   background-position: center center;
   background-size: 80px 80px;
@@ -326,11 +327,11 @@ header .intro-text .intro-twitter {
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
-  color: black;
+  color: #5d8198;
   font-size: 30px;
 }
 header .intro-text .intro-twitter:hover {
-  color:#ADD8E6;
+  color: #d03161;
 }
 
 header .intro-text .intro-github {
@@ -338,11 +339,11 @@ header .intro-text .intro-github {
   display: inline-block;
   margin-left: 10px;
   margin-right: auto;
-  color: black;
+  color: #5d8198;
   font-size: 30px;
 }
 header .intro-text .intro-github:hover {
-  color:#ADD8E6;
+  color: #d03161;
 }
 
 header .intro-text .intro-mail {
@@ -350,11 +351,11 @@ header .intro-text .intro-mail {
   display: inline-block;
   margin-left: 10px;
   margin-right: auto;
-  color: black;
+  color: #5d8198;
   font-size: 30px;
 }
 header .intro-text .intro-mail:hover {
-  color:#ADD8E6;
+  color: #d03161;
 }
 
 header .intro-text .intro-lead-in {
@@ -374,12 +375,20 @@ header .intro-text .intro-heading {
     line-height: 50px;
 }
 
+header .infobox {
+    text-align: left;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #777;
+    font-size: 14px;
+    padding: 20px;
+}
+
 @media(min-width:768px) {
     header {
         text-align: center;
         color: #fff;
         background-attachment: scroll;
-        background-image: url(../img/header-bg.jpg);
+        background-color: #fff;
         background-position: center center;
         background-repeat: none;
         -webkit-background-size: cover;
@@ -389,21 +398,21 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text {
-        padding-top: 140px;
-        padding-bottom: 360px;
+      padding-top: 140px;
+      padding-bottom: 10px;
     }
 
     header .intro-text .intro-pic {
       position:relative;
       margin-left: auto;
-      margin-bottom: 0px;
+      margin-bottom: 20px;
       background-image: url(../img/profile-pic.jpg);
       background-position: center center;
-      background-size: 130px 130px;
+      background-size: 170px 170px;
       background-repeat: none;
-      width: 130px;
-      height: 130px;
-      border: 2px solid #f1f1f1;
+      width: 170px;
+      height: 170px;
+      border: 2px solid #5d8198;
       border-radius: 100%;
     }
 
@@ -413,8 +422,8 @@ header .intro-text .intro-heading {
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 50px;
-      color: white;
-      font-size: 48px;
+      color: #5d8198;
+      font-size: 36px;
     }
 
     header .intro-text .intro-github {
@@ -422,8 +431,8 @@ header .intro-text .intro-heading {
       display: inline-block;
       margin-left: 15px;
       margin-right: 15px;
-      color: white;
-      font-size: 48px;
+      color: #5d8198;
+      font-size: 36px;
     }
 
     header .intro-text .intro-mail {
@@ -431,8 +440,8 @@ header .intro-text .intro-heading {
       display: inline-block;
       margin-left: auto;
       margin-right: auto;
-      color: white;
-      font-size: 48px;
+      color: #5d8198;
+      font-size: 36px;
     }
 
     header .intro-text .intro-lead-in {
@@ -446,10 +455,19 @@ header .intro-text .intro-heading {
     header .intro-text .intro-heading {
         margin-bottom: 15px;
         text-transform: uppercase;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 60px;
         font-weight: 700;
         line-height: 75px;
+    }
+
+    header .infobox {
+        width = 400px;
+        margin-top: 20px;
+        text-align: left;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        color: #777;
+        font-size: 16px;
     }
 }
 
@@ -471,17 +489,21 @@ CSS for Blog posts
   text-transform: uppercase;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #5d8198;
 }
 
 .artcl-info {
   font-size:10px;
+  color: #5d8198;
 }
 
 @media(min-width:768px) {
     .artcl-header {
         text-align: center;
         color: #fed136;
-        padding: 170px;
+        padding-top: 100px;
         background-attachment: scroll;
         background-color: #000;
         background-position: center center;
@@ -491,17 +513,23 @@ CSS for Blog posts
     .artcl-heading {
       text-transform: uppercase;
       font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-      font-size: 50px;
+      font-size: 35px;
+      margin-bottom: 30px;
+      margin-left: 10%;
+      margin-right: 10%;
+      color: #5d8198;
     }
 
     .artcl-info {
       font-size:15px;
+      color: #5d8198;
     }
 }
 
 .posts-more {
   text-transform: uppercase;
   font-size: 18px;
+  margin-bottom: 20px;
 }
 
 .posts-list ul {
@@ -512,13 +540,13 @@ CSS for Blog posts
 }
 
 .blogcontent {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 300;
   text-align: justify;
   margin-top: 50px;
   margin-bottom: 50px;
-  margin-right: 50px;
-  margin-left: 50px;
+  margin-right: 15%;
+  margin-left: 15%;
 }
 
 .blogcontent h3 {
@@ -529,6 +557,7 @@ CSS for Blog posts
 .blogcontent h4 {
   margin-top: 40px;
   text-align: center;
+  font-size: 12px;
 }
 
 .blogcontent h5 {
@@ -541,18 +570,24 @@ CSS for Blog posts
 
 @media(min-width:768px) {
     .blogcontent {
-      font-size: 20px;
+      font-size: 16px;
       font-weight: 300;
       text-align: justify;
       margin-top: 50px;
       margin-bottom: 50px;
-      margin-right: 150px;
-      margin-left: 150px;
+      margin-right: 15%;
+      margin-left: 15%;
     }
 
     .blogcontent h3 {
       margin-top: 40px;
-      font-size: 25px;
+      font-size: 20px;
+    }
+
+    .blogcontent h4 {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 16px;
     }
 }
 
@@ -562,7 +597,7 @@ section {
 
 section h2.section-heading {
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     font-size: 20px;
 }
 
@@ -577,13 +612,13 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 120px 0;
+        padding: 70px 0;
     }
 
     section h2.section-heading {
         margin-top: 0;
-        margin-bottom: 15px;
-        font-size: 40px;
+        margin-bottom: 10px;
+        font-size: 30px;
     }
 }
 
@@ -593,14 +628,12 @@ section h3.section-subheading {
 }
 
 #publications .portfolio-item {
-    right: 0;
-    margin: 0 0 15px;
+  margin-bottom: 10px;
 }
 
 #publications .portfolio-item .portfolio-link {
     display: block;
     position: relative;
-    margin: 0 auto;
     max-width: 400px;
     opacity: 1;
 }
@@ -610,7 +643,7 @@ section h3.section-subheading {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(254,209,54,.9);
+    background: #5d8198;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -641,8 +674,7 @@ section h3.section-subheading {
 }
 
 #publications .portfolio-item .portfolio-caption {
-    margin: 0 auto;
-    padding: 25px;
+    padding: 20px;
     max-width: 400px;
     text-align: center;
     background-color: #fff;
@@ -732,7 +764,7 @@ section h3.section-subheading {
     width: 80px;
     height: 80px;
     margin-left: 0;
-    background-color: #eec200;
+    background-color: #d03161;
     border: 7px solid #f1f1f1;
     border-radius: 100%;
     text-align: center;
@@ -789,7 +821,7 @@ section h3.section-subheading {
     }
 
     .timeline>li {
-        margin-bottom: 100px;
+        margin-bottom: 70px;
         min-height: 100px;
     }
 
@@ -1085,7 +1117,7 @@ ul.social-buttons li a:active {
 }
 
 .portfolio-modal .modal-content {
-    padding: 40px 0;
+    padding: 20px 0;
     min-height: 100%;
     border: 0;
     border-radius: 0;
