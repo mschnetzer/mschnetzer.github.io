@@ -6,14 +6,18 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   
+
   
+
   
   <title></title>
   <!-- Stylesheets -->
   <link href="https://mschnetzer.github.io/css/bootstrap-v3.3.7/bootstrap.min.css" rel="stylesheet">
   <link href="https://mschnetzer.github.io/css/agency.css" rel="stylesheet">
-  <link href="https://mschnetzer.github.io/css/jquery.form-validator-v2.3.44/theme-default.min.css" rel="stylesheet">
+  <link href="https://mschnetzer.github.io/css/owl.carousel.min.css" rel="stylesheet">
+  <link href="https://mschnetzer.github.io/css/owl.theme.default.min.css" rel="stylesheet">
 
   
 
@@ -91,6 +95,12 @@
         
 
         
+          <li>
+            <a class="page-scroll" href="https://mschnetzer.github.io/#infograph">Infografiken</a>
+          </li>
+        
+
+        
 
         
 
@@ -164,9 +174,6 @@
 <!-- Bootstrap Core -->
 <script src="https://mschnetzer.github.io/js/bootstrap-v3.3.7/bootstrap.min.js"></script>
 
-<!-- Form Validation -->
-<script src="https://mschnetzer.github.io/js/jquery.form-validator-v2.3.44/jquery.form-validator.min.js"></script>
-
 <!-- Math Jax -->
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
@@ -177,6 +184,39 @@
 
 <!-- Custom Theme -->
 <script src="https://mschnetzer.github.io/js/agency.js"></script>
+
+<!-- Owl carousel -->
+<script src="https://mschnetzer.github.io/js/owl.carousel.min.js"></script>
+
+<script>
+$(document).ready(function(){
+var owl = $(".owl-carousel");
+owl.owlCarousel({
+          responsiveClass:true,
+          responsive : {
+              
+              0 : {
+              items : 1
+              },
+              
+              768 : {
+              items : 2
+              },
+              
+              992 : {
+              items : 3
+              }
+            },
+          loop:true,
+          margin:50,
+          autoplay:true,
+          autoplayTimeout:4000,
+          autoplayHoverPause:true,
+          dotsEach:true,
+          smartSpeed:1000
+      });
+});
+</script>
 
 
 
