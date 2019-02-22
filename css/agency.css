@@ -322,15 +322,16 @@ header .intro-text .intro-pic {
   border-radius: 100%;
 }
 
-header .intro-text .intro-twitter {
+header .intro-text .intro-button {
   position: relative;
   display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 80px;
   color: #5d8198;
-  font-size: 30px;
+  font-size: 35px;
 }
-header .intro-text .intro-twitter:hover {
+header .intro-text .intro-button:hover {
   color: #d03161;
 }
 
@@ -343,6 +344,18 @@ header .intro-text .intro-github {
   font-size: 30px;
 }
 header .intro-text .intro-github:hover {
+  color: #d03161;
+}
+
+header .intro-text .intro-gpg {
+  position: relative;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: auto;
+  color: #5d8198;
+  font-size: 30px;
+}
+header .intro-text .intro-gpg:hover {
   color: #d03161;
 }
 
