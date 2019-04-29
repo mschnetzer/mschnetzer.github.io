@@ -8,6 +8,22 @@
   </url>
   
   <url>
+    <loc>https://mschnetzer.github.io/de/</loc>
+    <lastmod>2019-02-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mschnetzer.github.io/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://mschnetzer.github.io/de/"
+                />
+  </url>
+  
+  <url>
     <loc>https://mschnetzer.github.io/de/blog/hfcs2017/</loc>
     <lastmod>2019-01-14T00:00:00+00:00</lastmod>
   </url>
@@ -90,22 +106,6 @@
   <url>
     <loc>https://mschnetzer.github.io/de/blog/ungleichheit-spaltet-wissenschaft/</loc>
     <lastmod>2014-01-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mschnetzer.github.io/de/</loc>
-    <lastmod>2019-02-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mschnetzer.github.io/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://mschnetzer.github.io/de/"
-                />
   </url>
   
 </urlset>
