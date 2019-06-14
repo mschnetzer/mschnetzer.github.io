@@ -3,13 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mschnetzer.github.io/de/blog/marx2018/</loc>
-    <lastmod>2019-02-13T00:00:00+00:00</lastmod>
+    <loc>https://mschnetzer.github.io/de/blog/zeitverwendung/</loc>
+    <lastmod>2019-06-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://mschnetzer.github.io/de/</loc>
-    <lastmod>2019-02-13T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -21,6 +21,11 @@
                 hreflang="de"
                 href="https://mschnetzer.github.io/de/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://mschnetzer.github.io/de/blog/marx2018/</loc>
+    <lastmod>2019-02-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
