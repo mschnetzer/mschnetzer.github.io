@@ -1,15 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mschnetzer.github.io/de/blog/navigationskarte/</loc>
-    <lastmod>2019-08-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://mschnetzer.github.io/de/</loc>
-    <lastmod>2019-08-08T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-06T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -20,6 +15,16 @@
                 hreflang="de"
                 href="https://mschnetzer.github.io/de/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://mschnetzer.github.io/de/blog/digitalisierung/</loc>
+    <lastmod>2019-11-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mschnetzer.github.io/de/blog/navigationskarte/</loc>
+    <lastmod>2019-08-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
