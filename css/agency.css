@@ -53,7 +53,7 @@ h5,
 h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .img-centered {
@@ -749,7 +749,7 @@ section h3.section-subheading {
     height: 80px;
     margin-left: 0;
     background-color: #d03161;
-    border: 7px solid #f1f1f1;
+    /* border: 7px solid #f1f1f1; */
     border-radius: 100%;
     text-align: center;
     color: #fff;

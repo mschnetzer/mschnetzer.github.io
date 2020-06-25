@@ -3,6 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://mschnetzer.github.io/de/</loc>
+    <lastmod>2020-04-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mschnetzer.github.io/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://mschnetzer.github.io/de/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mschnetzer.github.io/de/blog/kurzarbeit/</loc>
+    <lastmod>2020-04-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mschnetzer.github.io/de/blog/piketty2020/</loc>
     <lastmod>2020-02-27T00:00:00+00:00</lastmod>
   </url>
@@ -44,21 +64,6 @@
                 rel="alternate"
                 hreflang="de"
                 href="https://mschnetzer.github.io/de/mastertheses/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://mschnetzer.github.io/de/</loc>
-    <lastmod>2018-11-15T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mschnetzer.github.io/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://mschnetzer.github.io/de/"
                 />
   </url>
   
