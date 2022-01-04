@@ -53,7 +53,7 @@ h5,
 h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 100;
+    font-weight: 500;
 }
 
 .img-centered {
@@ -439,7 +439,7 @@ header .infobox {
     }
 
     header .infobox {
-        width = 400px;
+        width: 400px;
         margin-top: 20px;
         text-align: left;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -1196,4 +1196,4 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #fed136;
-}-
+}
