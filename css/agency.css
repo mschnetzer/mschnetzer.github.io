@@ -474,6 +474,12 @@ CSS for Blog posts
   color: #5d8198;
 }
 
+.owl-pagination {
+    position: absolute;
+    right: 0;
+    top: -50px;
+  }
+
 @media(min-width:768px) {
     .artcl-header {
         text-align: center;
@@ -633,7 +639,7 @@ section h3.section-subheading {
 }
 
 #publications .portfolio-item .portfolio-link .portfolio-hover:hover {
-    opacity: 1;
+    opacity: 100%;
 }
 
 #publications .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
@@ -673,6 +679,11 @@ section h3.section-subheading {
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
+}
+
+#publications .portfolio-item .portfolio-caption p a:hover {
+    text-decoration: none;
+    color: #d03161;
 }
 
 #publications * {
