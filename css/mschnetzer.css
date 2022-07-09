@@ -1,0 +1,671 @@
+/*
+General settings
+*/
+
+body {
+    overflow-x: hidden;
+    font-family: 'Ubuntu';
+}
+
+.text-muted {
+    color: #777;
+    font-family: 'Ubuntu';
+}
+
+.text-primary {
+    color: #5d8198;
+}
+
+.container{
+    max-width: 80%;
+}
+
+/* width of page */
+@media(min-width:962px) {
+    .container{
+        max-width: 66%;
+    }
+}
+
+p {
+    line-height: 1.5;
+}
+
+p.large {
+    font-size: 14px;
+}
+
+a {
+    outline: 0;
+    color: #5d8198
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+    color: #d03161;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Ubuntu';
+    font-weight: 300;
+}
+
+.img-centered {
+    margin: 0 auto;
+}
+
+section {
+    padding: 40px 0;
+}
+
+section h1, h2, h3, h4, h5, h6 {
+    text-align: left;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+@media(min-width:962px) {
+    section {
+        padding: 50px 0;
+    }
+}
+
+
+/*
+Navigation bar settings
+*/
+
+.navbar-default {
+    border: 0;
+    background-color: #fff;
+}
+
+.navbar-default .nav li a {
+    text-transform: uppercase;
+    font-family: "Ubuntu";
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #5d8198;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:active,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: #d03161;
+}
+
+.navbar-default.navbar-shrink {
+    background-color: #ffffff;
+}
+
+/* Navigation bar to sandwich for mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #5d8198;
+    background-color: #5d8198;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #d03161;
+    border-color: #d03161;
+}
+
+@media(min-width:962px) {
+    .navbar-default {
+        padding: 5px 0;
+        border: 0;
+        background-color: #fff;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+}
+
+/*
+Personal information
+*/
+
+header {
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-color: #fff;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+header .intro {
+    padding-top: 60px;
+    padding-bottom: 0px;
+}
+
+header .intro .intro-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  background-image: url(../img/profile-pic.jpg);
+  background-position: center center;
+  background-size: 100px 100px;
+  background-repeat: none;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #f1f1f1;
+  border-radius: 100%;
+}
+
+header .intro .intro-button {
+  position: relative;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #5d8198;
+  font-size: x-large;
+}
+
+header .intro .intro-button:hover {
+  color: #d03161;
+}
+
+header .intro .intro-name {
+    text-align: left;
+    font-family: "Ubuntu", sans-serif;
+    font-size: x-large;
+    color: #000;
+    font-weight: 300;
+}
+
+header .intro .intro-text {
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:small;
+    color: #777;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+@media(min-width:962px) {
+    header {
+        text-align: center;
+        color: #fff;
+        background-attachment: scroll;
+        background-color: #fff;
+        background-position: center center;
+        background-repeat: none;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+
+    header .intro {
+      padding-top: 110px;
+    }
+
+    header .intro .intro-pic {
+      position:relative;
+      margin-left: auto;
+      margin-bottom: 20px;
+      background-image: url(../img/profile-pic.jpg);
+      background-position: center center;
+      background-size: 170px 170px;
+      background-repeat: none;
+      width: 170px;
+      height: 170px;
+      border: 1px solid #5d8198;
+      border-radius: 100%;
+    }
+
+    header .intro .intro-button {
+        position: relative;
+        display: inline-block;
+        margin-left: 5px;
+        margin-right: 5px;
+        color: #5d8198;
+        font-size: x-large;
+    }
+    
+    header .intro .intro-button:hover {
+        color: #d03161;
+    }
+
+    header .intro .intro-name {
+        font-size: xx-large;
+    }
+
+    header .intro .intro-text {
+        font-size: medium;
+    }
+}
+
+/*
+Publications
+*/
+
+#publications .portfolio-item {
+    margin-bottom: 10px;
+    padding: 0;
+    padding-right: 10px;
+}
+
+@media(min-width:962px) {
+    #publications .portfolio-item {
+        margin-bottom: 30px;
+        min-height: 120px;
+    }
+}
+
+#publications .portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    max-width: 400px;
+    opacity: 1;
+}
+
+#publications .portfolio-item .portfolio-link:hover,
+#publications .portfolio-item .portfolio-link:active,
+#publications .portfolio-item .portfolio-link:focus {
+    text-decoration: none;
+}
+
+#publications .portfolio-item .portfolio-link .portfolio-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: #5d8198;
+    -webkit-transition: all ease .25s;
+    -moz-transition: all ease .25s;
+    transition: all ease .4s;
+}
+
+#publications .portfolio-item .portfolio-link .portfolio-hover:hover {
+    opacity: 15%;
+    border-left: 3px solid #000;
+}
+
+#publications .portfolio-item .portfolio-caption {
+    padding: 10px;
+    max-width: 400px;
+    text-align: center;
+    color: #333;
+    background-color: #fff;
+}
+
+#publications .portfolio-item .portfolio-caption .title {
+    margin: 0;
+    font-family: "Ubuntu";
+    font-size: small;
+    text-transform: uppercase;
+}
+
+#publications .portfolio-item .portfolio-caption .journal {
+    margin: 0;
+    font-family: "Cormorant Garamond";
+    font-size: larger;
+    font-style: italic;
+}
+
+#publications .portfolio-item .portfolio-caption .yearpub {
+    margin: 0;
+    font-family: "Cormorant Garamond";
+    font-size: larger;
+    font-style: italic;
+}
+
+#publications * {
+    z-index: 2;
+}
+
+
+/*
+Publication modals
+*/
+
+.portfolio-modal .modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    height:75%;
+    border: 0;
+    padding: 30px;
+    border-radius: 0;
+    text-align: center;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.portfolio-modal .modal-content p {
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    font-size: x-large;
+    color: #5d8198;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.portfolio-modal .close-modal:hover {
+    color:#d03161;
+}
+
+.portfolio-modal .modal-content p.item-intro {
+    margin: 20px 0 30px;
+    font-family: "Cormorant Garamond";
+    font-weight: 600;
+    font-size: larger;
+    font-style: italic;
+}
+
+.portfolio-modal .modal-content h3 {
+    font-size: large;
+}
+
+.portfolio-modal .modal-content .paperinfo {
+    text-align: left;
+    font-family: "Ubuntu";
+    font-size: small;
+    font-weight: 300;
+}
+
+.portfolio-modal .modal-content .abstract {
+    text-align: justify; 
+    font-size:small;
+    color: #777;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.portfolio-modal .modal-content ul.list-inline {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content img {
+    margin-bottom: 30px;
+}
+
+.close-button {
+    border:0;
+    font-family: "Ubuntu";
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    background-color: #5d8198;
+}
+
+.close-button:hover,
+.close-button:focus,
+.close-button:active,
+.close-button.active,
+.open .dropdown-toggle.close-button {
+    border:0;
+    color: #fff;
+    background-color: #5d8198;
+}
+
+.portfolio-modal .modal-backdrop {
+    display: none;
+    opacity: 0;
+}
+
+@media(min-width:962px) {
+    .portfolio-modal .modal-content {
+        padding: 30px;
+    }
+
+    .portfolio-modal .modal-content p.item-intro {
+        font-size: large;
+    }
+
+    .portfolio-modal .modal-content h3 {
+        font-size: x-large;
+    }
+
+    .portfolio-modal .modal-content .paperinfo {
+        font-size: medium;
+    }
+
+    .portfolio-modal .modal-content .abstract {
+        font-size: medium;
+    }
+
+}
+
+
+/*
+CV Timeline
+*/
+
+.download-cv {
+    font-size: x-large;
+    margin-left: 20px;
+    color:#5d8198;
+    cursor: pointer;
+}
+
+.download-cv:hover,
+.download-cv:active,
+.download-cv:focus {
+    color:#d03161;
+}
+
+.timeline {
+    position: relative;
+    padding: 0;
+    list-style: none;
+}
+
+.timeline:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 40px;
+    width: 2px;
+    margin-left: -1.5px;
+    background-color: #e6e6e6;
+}
+
+.timeline>li {
+    position: relative;
+    margin-bottom: 30px;
+    min-height: 50px;
+}
+
+.timeline>li:before,
+.timeline>li:after {
+    content: " ";
+    display: table;
+}
+
+.timeline>li:after {
+    clear: both;
+}
+
+.timeline>li .timeline-image {
+    z-index: 100;
+    position: absolute;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    margin-left: 0;
+    background-color: #d03161;
+    border: 1px solid #f1f1f1;
+    border-radius: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.timeline>li .timeline-image .cvlink {
+    font-weight: 300;
+    margin-top: 15px;
+    font-size: small;
+    line-height: 1.2;
+}
+
+.timeline>li .timeline-panel {
+    float: right;
+    position: relative;
+    width: 100%;
+    padding: 0 20px 0 100px;
+    text-align: left;
+}
+
+.timeline>li .timeline-panel:before {
+    right: auto;
+    left: -15px;
+    border-right-width: 15px;
+    border-left-width: 0;
+}
+
+.timeline>li .timeline-panel:after {
+    right: auto;
+    left: -14px;
+    border-right-width: 14px;
+    border-left-width: 0;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel {
+    float: right;
+    padding: 0 20px 0 100px;
+    text-align: left;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel:before {
+    right: auto;
+    left: -15px;
+    border-right-width: 15px;
+    border-left-width: 0;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel:after {
+    right: auto;
+    left: -14px;
+    border-right-width: 14px;
+    border-left-width: 0;
+}
+
+.timeline>li:last-child {
+    margin-bottom: 0;
+}
+
+.timeline .timeline-panel .cvdate{
+    margin: 0;
+    font-family: "Cormorant Garamond";
+    font-size: larger;
+    font-style: italic;
+}
+
+.timeline .timeline-panel .cvevent{
+    margin: 0;
+    font-family: "Ubuntu";
+    font-size: small;
+    text-transform: uppercase;
+}
+
+.timeline .timeline-panel .cvdesc{
+    margin: 0;
+    font-family: "Cormorant Garamond";
+    font-size: larger;
+    font-style: italic;
+    line-height: 1.25;
+}
+
+@media(min-width:962px) {
+    .timeline:before {
+        left: 50%;
+    }
+
+    .timeline>li {
+        margin-bottom: 30px;
+        min-height: 100px;
+    }
+
+    .timeline>li .timeline-image {
+        left: 50%;
+        width: 100px;
+        height: 100px;
+        margin-left: -50px;
+    }
+
+    .timeline>li .timeline-image .cvlink {
+        margin-top: 20px;
+        font-weight: 300;
+        text-align: center;
+        font-size: medium;
+        line-height: 1.2;
+    }
+
+    .timeline>li .timeline-panel {
+        float: left;
+        width: 40%;
+        padding: 0 0px 20px;
+        text-align: right;
+    }
+
+    .timeline>li.timeline-inverted>.timeline-panel {
+        float: right;
+        padding: 0 0px 20px;
+        text-align: left;
+    }
+}
+
+/*
+Teaching settings
+*/
+
+.teaching-heading {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: medium;
+    text-align: center;
+}
+
+.teaching-desc{
+    margin-bottom: 20px;
+    font-family: "Cormorant Garamond";
+    font-size: medium;
+    font-style: italic;
+}
+
+/*
+Footer settings
+*/
+
+footer {
+    text-align: right;
+    background-color:#f1f1f1;
+}
+
+footer span.copyright {
+    text-transform: uppercase;
+    font-size: x-small;
+    font-family: "Ubuntu";
+    font-weight: 300;
+}
