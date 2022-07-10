@@ -151,7 +151,7 @@ header {
 }
 
 header .intro {
-    padding-top: 60px;
+    padding-top: 80px;
     padding-bottom: 0px;
 }
 
@@ -378,27 +378,33 @@ Publication modals
     margin: 20px 0 30px;
     font-family: "Cormorant Garamond";
     font-weight: 600;
-    font-size: larger;
+    font-size: small;
     font-style: italic;
 }
 
 .portfolio-modal .modal-content h3 {
-    font-size: large;
+    font-size: medium;
 }
 
 .portfolio-modal .modal-content .paperinfo {
     text-align: left;
     font-family: "Ubuntu";
-    font-size: small;
+    font-size: x-small;
     font-weight: 300;
 }
 
 .portfolio-modal .modal-content .abstract {
     text-align: justify; 
-    font-size:small;
+    font-size: x-small;
     color: #777;
     font-weight: 300;
     line-height: 1.5;
+}
+
+.portfolio-modal .modal-content .img-centered {
+    float:right;
+    margin-left:15px;
+    width:75px;
 }
 
 .portfolio-modal .modal-content ul.list-inline {
@@ -453,6 +459,12 @@ Publication modals
 
     .portfolio-modal .modal-content .abstract {
         font-size: medium;
+    }
+
+    .portfolio-modal .modal-content .img-centered {
+        float:right;
+        margin-left:30px;
+        width:150px;
     }
 
 }
