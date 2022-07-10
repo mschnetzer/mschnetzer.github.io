@@ -343,7 +343,7 @@ Publication modals
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 75%;
+    width: 85%;
     height:75%;
     border: 0;
     padding: 30px;
@@ -443,6 +443,8 @@ Publication modals
 @media(min-width:962px) {
     .portfolio-modal .modal-content {
         padding: 30px;
+        width: 75%;
+        height:75%;
     }
 
     .portfolio-modal .modal-content p.item-intro {
