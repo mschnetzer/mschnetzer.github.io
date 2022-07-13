@@ -76,11 +76,16 @@ section h1, h2, h3, h4, h5, h6 {
     text-align: left;
     padding-bottom: 10px;
     margin-bottom: 30px;
+    font-size:x-large;
 }
 
 @media(min-width:992px) {
     section {
         padding: 50px 0;
+    }
+
+    section h1, h2, h3, h4, h5, h6 {
+        font-size: xx-large;
     }
 }
 
@@ -390,8 +395,10 @@ Publication modals
     font-style: italic;
 }
 
-.portfolio-modal .modal-content h3 {
+.portfolio-modal .modal-content .papertitle {
+    text-align: left;
     font-size: medium;
+    font-weight: 300;
 }
 
 .portfolio-modal .modal-content .paperinfo {
@@ -412,6 +419,7 @@ Publication modals
 .portfolio-modal .modal-content .img-centered {
     float:right;
     margin-left:15px;
+    margin-bottom:5px;
     width:75px;
 }
 
@@ -459,7 +467,7 @@ Publication modals
         font-size: medium;
     }
 
-    .portfolio-modal .modal-content h3 {
+    .portfolio-modal .modal-content .papertitle {
         font-size: large;
     }
 
@@ -473,7 +481,7 @@ Publication modals
 
     .portfolio-modal .modal-content .img-centered {
         float:right;
-        margin-left:30px;
+        margin-left:20px;
         width:100px;
     }
 
@@ -484,7 +492,7 @@ Publication modals
         font-size: large;
     }
 
-    .portfolio-modal .modal-content h3 {
+    .portfolio-modal .modal-content .papertitle {
         font-size: x-large;
     }
 
