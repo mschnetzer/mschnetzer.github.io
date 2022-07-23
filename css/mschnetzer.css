@@ -132,7 +132,8 @@ Navigation bar settings
 }
 
 .navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:visited {
     background-color: #d03161;
     border-color: #d03161;
 }
@@ -265,21 +266,21 @@ Publications
 */
 
 #publications .portfolio-item {
-    margin-bottom: 10px;
+    margin-top: 10px;
     padding: 0;
     padding-right: 10px;
 }
 
 @media(min-width:768px) {
     #publications .portfolio-item {
-        margin-bottom: 0px;
+        margin-top: 0px;
         min-height: 120px;
     }
 }
 
 @media(min-width:992px) {
     #publications .portfolio-item {
-        margin-bottom: 30px;
+        margin-top: 20px;
         min-height: 120px;
     }
 }
