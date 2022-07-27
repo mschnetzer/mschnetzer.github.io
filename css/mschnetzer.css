@@ -7,6 +7,10 @@ body {
     font-family: 'Ubuntu';
 }
 
+body.modal-open {
+    overflow: hidden;
+}
+
 .text-muted {
     color: #777;
     font-family: 'Ubuntu';
@@ -368,7 +372,7 @@ Publication modals
     box-shadow: none;
     overflow-x: hidden;
     overflow-y: auto;
-}
+}   
 
 .portfolio-modal .modal-content p {
     margin-bottom: 30px;
