@@ -219,7 +219,7 @@ header .intro-right .intro-text {
     font-family: 'Ubuntu', sans-serif;
     font-size:small;
     color: #777;
-    font-weight: 300;
+    font-weight: 100;
     line-height: 1.5;
 }
 
@@ -401,7 +401,7 @@ Publication modals
 }
 
 .portfolio-modal .modal-content .papertitle {
-    text-align: left;
+    text-align:left;
     font-size: medium;
     font-weight: 300;
 }
@@ -702,15 +702,16 @@ Teaching settings
 
 .teaching-heading {
     margin-top: 10px;
+    text-transform: uppercase;
     font-weight: 400;
-    font-size: medium;
+    font-size: small;
     text-align: center;
 }
 
 .teaching-desc{
     margin-bottom: 20px;
     font-family: "Cormorant Garamond";
-    font-size: medium;
+    font-size: larger;
     font-style: italic;
 }
 
