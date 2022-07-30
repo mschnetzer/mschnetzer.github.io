@@ -66,6 +66,7 @@ h5,
 h6 {
     font-family: 'Ubuntu';
     font-weight: 300;
+    text-transform: uppercase;
 }
 
 .img-centered {
@@ -73,23 +74,38 @@ h6 {
 }
 
 section {
-    padding: 40px 0;
+    padding-top: 40px;
 }
 
 section h1, h2, h3, h4, h5, h6 {
-    text-align: left;
-    padding-bottom: 10px;
-    margin-bottom: 30px;
-    font-size:x-large;
+    display: flex;
+    flex-direction: row;
+    font-size: large;
+    margin-bottom: 40px;
+}
+
+section h2:before, h2:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 0.5px solid;
+    color: #777;
+    margin: auto;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 @media(min-width:992px) {
     section {
-        padding: 50px 0;
+        padding-top: 50px;
     }
 
     section h1, h2, h3, h4, h5, h6 {
-        font-size: xx-large;
+        font-size: x-large;
+    }
+
+    section h2:before, h2:after {
+        margin-right: 20px;
+        margin-left: 20px;
     }
 }
 
@@ -208,7 +224,7 @@ header .intro-right {
 
 header .intro-right .intro-name {
     text-align: left;
-    font-family: "Ubuntu", sans-serif;
+    font-family: "Ubuntu";
     font-size: x-large;
     color: #000;
     font-weight: 300;
@@ -522,19 +538,6 @@ Publication modals
 CV Timeline
 */
 
-.download-cv {
-    font-size: x-large;
-    margin-left: 20px;
-    color:#5d8198;
-    cursor: pointer;
-}
-
-.download-cv:hover,
-.download-cv:active,
-.download-cv:focus {
-    color:#d03161;
-}
-
 .timeline {
     position: relative;
     padding: 0;
@@ -575,16 +578,36 @@ CV Timeline
     width: 80px;
     height: 80px;
     margin-left: 0;
-    background-color: #d03161;
+    background-color: #5d8198;
     border: 1px solid #f1f1f1;
     border-radius: 100%;
     text-align: center;
+}
+
+.timeline>li .timeline-image:hover {
+    background-color: #d03161;
+}
+
+.timeline>li .timeline-image .pdfbg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 50px;
     color: #fff;
+    opacity: .1;
 }
 
 .timeline>li .timeline-image .cvlink {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    color: #fff;
     font-weight: 300;
-    margin-top: 15px;
     font-size: small;
     line-height: 1.2;
 }
@@ -674,10 +697,12 @@ CV Timeline
         margin-left: -50px;
     }
 
+    .timeline>li .timeline-image .pdfbg {
+        font-size: 70px;
+    }
+
     .timeline>li .timeline-image .cvlink {
-        margin-top: 20px;
         font-weight: 300;
-        text-align: center;
         font-size: medium;
         line-height: 1.2;
     }
