@@ -740,6 +740,16 @@ Teaching settings
     font-style: italic;
 }
 
+.fa-stack.teachsym {
+    font-size: 25px;
+}
+
+@media(min-width:992px) {
+    .fa-stack.teachsym {
+        font-size: 40px;
+    }
+}
+
 /*
 Footer settings
 */
