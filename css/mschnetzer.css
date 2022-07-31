@@ -733,11 +733,21 @@ Teaching settings
     text-align: center;
 }
 
-.teaching-desc{
+.teaching-desc {
     margin-bottom: 20px;
     font-family: "Cormorant Garamond";
     font-size: larger;
     font-style: italic;
+}
+
+.fa-stack.teachsym {
+    font-size: x-large;
+}
+
+@media(min-width:992px) {
+    .fa-stack.teachsym {
+        font-size: xx-large;
+    }
 }
 
 /*
