@@ -741,12 +741,12 @@ Teaching settings
 }
 
 .fa-stack.teachsym {
-    font-size: x-large;
+    font-size: 25px;
 }
 
 @media(min-width:992px) {
     .fa-stack.teachsym {
-        font-size: xx-large;
+        font-size: 40px;
     }
 }
 
