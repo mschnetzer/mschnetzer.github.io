@@ -744,6 +744,10 @@ Teaching settings
     font-size: 25px;
 }
 
+.fa-stack .teachsym:hover {
+    color:#d03161;
+}
+
 @media(min-width:992px) {
     .fa-stack.teachsym {
         font-size: 40px;
