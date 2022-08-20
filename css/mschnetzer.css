@@ -1,10 +1,20 @@
 /*
+Global variables
+*/
+
+:root {
+    --primfont: 'Ubuntu';
+    --secfont: 'Cormorant Garamond';
+    --scifont: 'Roboto Slab';
+}
+
+/*
 General settings
 */
 
 body {
     overflow-x: hidden;
-    font-family: 'Ubuntu';
+    font-family: var(--primfont);
 }
 
 body.modal-open {
@@ -13,7 +23,7 @@ body.modal-open {
 
 .text-muted {
     color: #777;
-    font-family: 'Ubuntu';
+    font-family: var(--primfont);
 }
 
 .text-primary {
@@ -64,7 +74,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Ubuntu';
+    font-family: var(--primfont);
     font-weight: 300;
     text-transform: uppercase;
 }
@@ -121,7 +131,7 @@ Navigation bar settings
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: "Ubuntu";
+    font-family: var(--primfont);
     font-weight: 300;
     letter-spacing: 1px;
     color: #5d8198;
@@ -224,7 +234,7 @@ header .intro-right {
 
 header .intro-right .intro-name {
     text-align: left;
-    font-family: "Ubuntu";
+    font-family: var(--scifont);
     font-size: x-large;
     color: #000;
     font-weight: 300;
@@ -232,7 +242,7 @@ header .intro-right .intro-name {
 
 header .intro-right .intro-text {
     text-align: left;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: var(--primfont);
     font-size:small;
     color: #777;
     font-weight: 100;
@@ -344,21 +354,21 @@ Publications
 
 #publications .portfolio-item .portfolio-caption .title {
     margin: 0;
-    font-family: "Ubuntu";
+    font-family: var(--primfont);
     font-size: small;
     text-transform: uppercase;
 }
 
 #publications .portfolio-item .portfolio-caption .journal {
     margin: 0;
-    font-family: "Cormorant Garamond";
+    font-family: var(--secfont);
     font-size: larger;
     font-style: italic;
 }
 
 #publications .portfolio-item .portfolio-caption .yearpub {
     margin: 0;
-    font-family: "Cormorant Garamond";
+    font-family: var(--secfont);
     font-size: larger;
     font-style: italic;
 }
@@ -410,7 +420,7 @@ Publication modals
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: "Cormorant Garamond";
+    font-family: var(--secfont);
     font-weight: 600;
     font-size: small;
     font-style: italic;
@@ -418,19 +428,21 @@ Publication modals
 
 .portfolio-modal .modal-content .papertitle {
     text-align:left;
+    font-family: var(--scifont);
     font-size: medium;
     font-weight: 300;
 }
 
 .portfolio-modal .modal-content .paperinfo {
     text-align: left;
-    font-family: "Ubuntu";
+    font-family: var(--scifont);
     font-size: x-small;
     font-weight: 300;
 }
 
 .portfolio-modal .modal-content .abstract {
     text-align: justify; 
+    font-family: var(--scifont);
     font-size: x-small;
     color: #777;
     font-weight: 300;
@@ -455,9 +467,8 @@ Publication modals
 
 .close-button {
     border:0;
-    font-family: "Ubuntu";
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 400;
     color: #fff;
     background-color: #5d8198;
 }
@@ -660,21 +671,21 @@ CV Timeline
 
 .timeline .timeline-panel .cvdate{
     margin: 0;
-    font-family: "Cormorant Garamond";
+    font-family: var(--secfont);
     font-size: larger;
     font-style: italic;
 }
 
 .timeline .timeline-panel .cvevent{
     margin: 0;
-    font-family: "Ubuntu";
+    font-family: var(--primfont);
     font-size: small;
     text-transform: uppercase;
 }
 
 .timeline .timeline-panel .cvdesc{
     margin: 0;
-    font-family: "Cormorant Garamond";
+    font-family: var(--secfont);
     font-size: larger;
     font-style: italic;
     line-height: 1.25;
@@ -735,7 +746,7 @@ Teaching settings
 
 .teaching-desc {
     margin-bottom: 20px;
-    font-family: "Cormorant Garamond";
+    font-family: var(--secfont);
     font-size: larger;
     font-style: italic;
 }
@@ -766,6 +777,6 @@ footer {
 footer span.copyright {
     text-transform: uppercase;
     font-size: x-small;
-    font-family: "Ubuntu";
+    font-family: var(--primfont);
     font-weight: 300;
 }
