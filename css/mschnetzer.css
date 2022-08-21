@@ -232,8 +232,15 @@ header .intro-right {
     padding-top: 20px;
   }
 
-header .intro-right .intro-name {
+header .intro-right .intro-firstname {
     text-align: left;
+    font-family: var(--scifont);
+    font-size: x-large;
+    color: #000;
+    font-weight: 100;
+}
+
+header .intro-right .intro-lastname {
     font-family: var(--scifont);
     font-size: x-large;
     color: #000;
@@ -242,10 +249,10 @@ header .intro-right .intro-name {
 
 header .intro-right .intro-text {
     text-align: left;
-    font-family: var(--primfont);
+    font-family: var(--scifont);
     font-size:small;
     color: #777;
-    font-weight: 100;
+    font-weight: 200;
     line-height: 1.5;
 }
 
@@ -282,7 +289,11 @@ header .intro-right .intro-text {
         padding-top: 110px;
       }
 
-    header .intro-right .intro-name {
+    header .intro-right .intro-firstname {
+        font-size: xx-large;
+    }
+
+    header .intro-right .intro-lastname {
         font-size: xx-large;
     }
 
