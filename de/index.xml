@@ -5,12 +5,12 @@
     <link>https://mschnetzer.github.io/de/</link>
     <description>Recent content on matthias schnetzer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>de</language><atom:link href="https://mschnetzer.github.io/de/index.xml" rel="self" type="application/rss+xml" />
+    <language>de</language>
+    <atom:link href="https://mschnetzer.github.io/de/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Betreuung von Masterarbeiten</title>
       <link>https://mschnetzer.github.io/de/mastertheses/</link>
       <pubDate>Thu, 15 Nov 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://mschnetzer.github.io/de/mastertheses/</guid>
       <description>Bitte schicken Sie eine kurze Bewerbung unter Angabe des Kürzels via mail.
 [MA1] Regionale Kuznets-Kurven (vergeben)
@@ -20,6 +20,5 @@ Kleinräumige Untersuchung sozialer Ungleichheiten in Wien mit räumlicher Ökon
 [MA3] Datenbank für nationale Reichenlisten (vergeben)
 Erstellung einer Online-Datenbank von nationalen Reichenlisten aus Ländern der Eurozone für öffentliche Verwendung.</description>
     </item>
-    
   </channel>
 </rss>
