@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>matthias schnetzer</title>
-    <link>https://mschnetzer.github.io/de/</link>
-    <description>Recent content on matthias schnetzer</description>
-    <generator>Hugo</generator>
-    <language>de</language>
-    <lastBuildDate>Thu, 15 Nov 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://mschnetzer.github.io/de/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Betreuung von Masterarbeiten</title>
-      <link>https://mschnetzer.github.io/de/mastertheses/</link>
-      <pubDate>Thu, 15 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>https://mschnetzer.github.io/de/mastertheses/</guid>
-      <description>&lt;p&gt;Bitte schicken Sie eine kurze Bewerbung unter Angabe des Kürzels &lt;a href=&#34;mailto:mschnetz@wu.ac.at&#34;&gt;via mail&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;[MA1]&lt;/strong&gt; &lt;em&gt;Regionale Kuznets-Kurven&lt;/em&gt; &lt;em&gt;&lt;strong&gt;(vergeben)&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;&#xA;Untersuchung des Kuznets-Zusammenhangs zwischen ökonomischer Entwicklung und Einkommensungleichheit in österreichischen Gemeinden, ähnlich wie &lt;a href=&#34;https://twitter.com/brankomilan/status/344504611253653504?lang=de&#34;&gt;ein Tweet&lt;/a&gt; von Branko Milanovic.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;[MA2]&lt;/strong&gt; &lt;em&gt;Räumliche Ungleichheit in Wien&lt;/em&gt; &lt;em&gt;&lt;strong&gt;(vergeben)&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;&#xA;Kleinräumige Untersuchung sozialer Ungleichheiten in Wien mit räumlicher Ökonometrie, ähnlich zum &lt;a href=&#34;https://www.stadt-zuerich.ch/prd/de/index/stadtentwicklung/gesellschaft-und-raum/entwicklung-wohnstadt-2/sozialraummonitoring/Sozialraummonitoring_2017.html&#34;&gt;Sozialmonitoring in Zürich&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;[MA3]&lt;/strong&gt; &lt;em&gt;Datenbank für nationale Reichenlisten&lt;/em&gt; &lt;em&gt;&lt;strong&gt;(vergeben)&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;&#xA;Erstellung einer Online-Datenbank von nationalen Reichenlisten aus Ländern der Eurozone für öffentliche Verwendung. Das Projekt umfasst Recherche, Korrespondenz mit Listen-Haltern, rechtliche Klärung und Erstellen der Datenbank. Masterarbeit dann z.B. mit Paretoschätzung auf Basis der Reichenlisten.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>matthias schnetzer</title>
+		<link>https://mschnetzer.github.io/de/</link>
+		<description>Recent content on matthias schnetzer</description>
+		<generator>Hugo</generator>
+		<language>de</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 15 Nov 2018 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://mschnetzer.github.io/de/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Betreuung von Masterarbeiten</title>
+				<link>https://mschnetzer.github.io/de/mastertheses/</link>
+				<pubDate>Thu, 15 Nov 2018 00:00:00 +0000</pubDate>
+				<guid>https://mschnetzer.github.io/de/mastertheses/</guid>
+				<description>&lt;p&gt;Bitte schicken Sie eine kurze Bewerbung unter Angabe des Kürzels &lt;a href=&#34;mailto:mschnetz@wu.ac.at&#34;&gt;via mail&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;[MA1]&lt;/strong&gt; &lt;em&gt;Regionale Kuznets-Kurven&lt;/em&gt; &lt;em&gt;&lt;strong&gt;(vergeben)&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;&#xA;Untersuchung des Kuznets-Zusammenhangs zwischen ökonomischer Entwicklung und Einkommensungleichheit in österreichischen Gemeinden, ähnlich wie &lt;a href=&#34;https://twitter.com/brankomilan/status/344504611253653504?lang=de&#34;&gt;ein Tweet&lt;/a&gt; von Branko Milanovic.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;[MA2]&lt;/strong&gt; &lt;em&gt;Räumliche Ungleichheit in Wien&lt;/em&gt; &lt;em&gt;&lt;strong&gt;(vergeben)&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;&#xA;Kleinräumige Untersuchung sozialer Ungleichheiten in Wien mit räumlicher Ökonometrie, ähnlich zum &lt;a href=&#34;https://www.stadt-zuerich.ch/prd/de/index/stadtentwicklung/gesellschaft-und-raum/entwicklung-wohnstadt-2/sozialraummonitoring/Sozialraummonitoring_2017.html&#34;&gt;Sozialmonitoring in Zürich&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;[MA3]&lt;/strong&gt; &lt;em&gt;Datenbank für nationale Reichenlisten&lt;/em&gt; &lt;em&gt;&lt;strong&gt;(vergeben)&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;&#xA;Erstellung einer Online-Datenbank von nationalen Reichenlisten aus Ländern der Eurozone für öffentliche Verwendung. Das Projekt umfasst Recherche, Korrespondenz mit Listen-Haltern, rechtliche Klärung und Erstellen der Datenbank. Masterarbeit dann z.B. mit Paretoschätzung auf Basis der Reichenlisten.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>
